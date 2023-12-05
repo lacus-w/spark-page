@@ -1,0 +1,8 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "spark-page"
+authors = [{name = "esse LL", email = "lacus.w@qq.com"}]
+dynamic = ["version", "description"]
