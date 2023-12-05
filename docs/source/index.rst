@@ -16,7 +16,5 @@ Contents
 
 .. toctree::
 
-   exp19
-   exp20
    usage
    api
