@@ -20,7 +20,8 @@ extensions = [
     "nbsphinx",
     "myst_parser",
     # "sphinx-design",
-    # "sphinx-copybutton",
+    "sphinx-copybutton",
+    'sphinx_favicon',
 ]
 
 intersphinx_mapping = {
@@ -35,6 +36,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 # html_theme = "sphinx_book_theme"
+# html_theme = sphinx-material
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
@@ -44,3 +46,19 @@ latex_use_xindy = False
 latex_elements = {
     "preamble": "\\usepackage[UTF8]{ctex}\n",
 }
+
+favicons = [
+#    {
+#       "sizes": "16x16",
+#       "href": "https://secure.example.com/favicon/favicon-16x16.png",
+#    },
+#    {
+#       "sizes": "32x32",
+#       "href": "https://secure.example.com/favicon/favicon-32x32.png",
+#    },
+   {
+      "rel": "pink-floyd-icon",
+      "sizes": "512x512",
+      "href": "pink-floyd-icon.png",  # use a local file in _static
+   },
+]
