@@ -19,8 +19,8 @@ extensions = [
     'sphinx.ext.intersphinx',
     "nbsphinx",
     "myst_parser",
-    "sphinx-design",
-    "sphinx-copybutton",
+    # "sphinx-design",
+    # "sphinx-copybutton",
 ]
 
 intersphinx_mapping = {
