@@ -6,9 +6,6 @@ project = 'spark-page'
 copyright = '2023, esse LL'
 author = 'esse LL'
 
-release = '0.1'
-version = '0.1.0'
-
 # -- General configuration
 
 extensions = [
@@ -17,6 +14,11 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    "sphinx.ext.extlinks",
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.mathjax",
+    "sphinx.ext.viewcode",
+    "sphinx.ext.todo",
     "nbsphinx",
     "myst_parser",
     # "sphinx_design",
@@ -34,8 +36,8 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
-# html_theme = 'sphinx_book_theme'
+# html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_book_theme'
 # html_theme = 'sphinx_material'
 
 # -- Options for EPUB output
@@ -57,8 +59,8 @@ favicons = [
 #       "href": "https://secure.example.com/favicon/favicon-32x32.png",
 #    },
    {
-      "rel": "pink-floyd-icon",
+      "rel": "spark-icon",
       "sizes": "512x512",
-      "href": "pink-floyd-icon.png",  # use a local file in _static
+      "href": "https://spark.apache.org/images/spark-logo-rev.svg",  # use a local file in _static
    },
 ]
