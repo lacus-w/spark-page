@@ -23,7 +23,6 @@ extensions = [
     "myst_parser",
     # "sphinx_design",
     "sphinx_copybutton",
-    'sphinx_favicon',
 ]
 
 intersphinx_mapping = {
@@ -39,6 +38,11 @@ templates_path = ['_templates']
 # html_theme = 'sphinx_rtd_theme'
 html_theme = 'sphinx_book_theme'
 # html_theme = 'sphinx_material'
+html_logo = "pink-floyd-logo.png"
+html_title = "Spark Page"
+html_copy_source = True
+html_favicon = "https://spark.apache.org/images/spark-logo-rev.svg"
+
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

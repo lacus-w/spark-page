@@ -1,5 +1,5 @@
-sphinx==7.1.2
-sphinx-book-theme
+sphinx==6.2.1
+sphinx-book-theme==1.0.1
 nbsphinx
 myst-parser
 sphinx-design
