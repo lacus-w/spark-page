@@ -23,3 +23,6 @@ brew install python@3.10
 # sphinx-design-0.5.0
 # sphinx-favicon-1.0.1
 # sphinx-material-0.0.36 
+
+
+pip install -U sphinx
