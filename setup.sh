@@ -17,3 +17,9 @@ pip install sphinx-book-theme
 pip install nbsphinx
 
 brew install python@3.10
+# sphinx-7.1.2
+# sphinx-book-theme-0.0.39
+# sphinx-copybutton-0.5.2 
+# sphinx-design-0.5.0
+# sphinx-favicon-1.0.1
+# sphinx-material-0.0.36 

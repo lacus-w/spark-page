@@ -19,8 +19,8 @@ extensions = [
     'sphinx.ext.intersphinx',
     "nbsphinx",
     "myst_parser",
-    # "sphinx-design",
-    "sphinx-copybutton",
+    # "sphinx_design",
+    "sphinx_copybutton",
     'sphinx_favicon',
 ]
 
@@ -36,7 +36,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 # html_theme = "sphinx_book_theme"
-# html_theme = sphinx-material
+# html_theme = sphinx_material
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
