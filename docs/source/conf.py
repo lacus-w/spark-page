@@ -48,8 +48,31 @@ html_static_path = ["_static"]
 # html_css_files = ["custom.css"]
 # pygments_style = 'xcode'
 html_theme_options = {
-    'logo': '_static/pf-prism.png',
+    "logo": {
+        "text": html_title
+    },
+    "launch_buttons": {
+        "binderhub_url": "https://mybinder.org",
+        "colab_url": "https://colab.research.google.com/",
+        "deepnote_url": "https://deepnote.com/",
+        "notebook_interface": "jupyterlab",
+        "thebe": True,
+        # "jupyterhub_url": "https://datahub.berkeley.edu",  # For testing
+    },
 }
+
+myst_enable_extensions = [
+    "dollarmath",
+    "amsmath",
+    "deflist",
+    # "html_admonition",
+    # "html_image",
+    "colon_fence",
+    # "smartquotes",
+    # "replacements",
+    # "linkify",
+    # "substitution",
+]
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
