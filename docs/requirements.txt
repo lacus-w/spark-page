@@ -4,5 +4,4 @@ nbsphinx
 myst-parser
 sphinx-design
 sphinx-copybutton
-sphinx-favicon
 sphinx-notfound-page

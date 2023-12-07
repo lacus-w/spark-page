@@ -60,12 +60,4 @@ latex_elements = {
     "preamble": "\\usepackage[UTF8]{ctex}\n",
 }
 
-favicons = [
-   {
-      "rel": "sp-icon" # "spark-icon",
-      "sizes": "512x512",
-      "href": "_static/sp-icon.png"# "https://spark.apache.org/images/spark-logo-rev.svg",  # use a local file in _static
-   },
-]
-
 notfound_template = "404.rst"
