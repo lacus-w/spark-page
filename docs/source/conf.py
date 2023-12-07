@@ -21,8 +21,9 @@ extensions = [
     "sphinx.ext.todo",
     "nbsphinx",
     "myst_parser",
-    # "sphinx_design",
+    "sphinx_design",
     "sphinx_copybutton",
+    "notfound.extension",
 ]
 
 intersphinx_mapping = {
@@ -38,11 +39,17 @@ templates_path = ['_templates']
 # html_theme = 'sphinx_rtd_theme'
 html_theme = 'sphinx_book_theme'
 # html_theme = 'sphinx_material'
-html_logo = "pink-floyd-logo.png"
+html_logo = "_static/pf-prism.png"
 html_title = "Spark Page"
 html_copy_source = True
-html_favicon = "https://spark.apache.org/images/spark-logo-rev.svg"
+html_favicon = '_static/sp-icon.png'# "https://spark.apache.org/images/spark-logo-rev.svg"
 
+html_static_path = ["_static"]
+# html_css_files = ["custom.css"]
+# pygments_style = 'xcode'
+html_theme_options = {
+    'logo': '_static/pf-prism.png',
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
@@ -54,17 +61,11 @@ latex_elements = {
 }
 
 favicons = [
-#    {
-#       "sizes": "16x16",
-#       "href": "https://secure.example.com/favicon/favicon-16x16.png",
-#    },
-#    {
-#       "sizes": "32x32",
-#       "href": "https://secure.example.com/favicon/favicon-32x32.png",
-#    },
    {
-      "rel": "spark-icon",
+      "rel": "sp-icon" # "spark-icon",
       "sizes": "512x512",
-      "href": "https://spark.apache.org/images/spark-logo-rev.svg",  # use a local file in _static
+      "href": "_static/sp-icon.png"# "https://spark.apache.org/images/spark-logo-rev.svg",  # use a local file in _static
    },
 ]
+
+notfound_template = "404.rst"
